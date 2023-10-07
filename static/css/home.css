@@ -1,0 +1,313 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+   
+}
+
+.logo{
+    float: left;
+    position: relative;
+    margin:20px 0px 0px 242px;
+}
+nav{
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    height: 130px;
+    width: 100px;
+    color: black;
+}
+
+li>a{
+    color: black;
+    padding: 40px 10px;
+    display: block;
+    text-decoration: none;
+}
+.nablist:hover
+{
+    height: 130px;
+    margin:0px;
+    width: 100px;
+    background-color: red;
+}
+
+.nablist>a:hover{
+    color: white;
+}
+
+/* first page css of image of car */
+.firstpage{
+    margin: 0px;
+   
+}
+.firstpage{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.219), rgba(71, 9, 9, 0.555)),
+    url('../img/ID3-2.png');  
+ background-repeat: no-repeat;
+ background-size: cover;
+height: 86.2vh;
+width: 100vw;
+}
+
+.firstpage>h1{
+    font-size: 5em;
+    text-align: center;
+    padding: 10%;
+    color:white;
+
+}
+
+.firstpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.check-out{
+    margin: -10% 0%;
+    width: 13%;
+    justify-self: center;
+    color: white;
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    border-radius: 33px;
+    font-size: 30px;
+}
+
+/* our founder page */
+
+.ourfounder{
+    display: flex;
+    flex-direction:row;
+}
+
+.founder-heading{
+    font-size: 4em;
+    /* font-family: 'poppine', sans-serif; */
+    text-align: center;
+    margin: 3%;
+    font-weight: 2em;
+}
+
+.main-founder-container{
+    height: 93vh;
+}
+
+.ourfounder>div{
+    flex-wrap: wrap;
+    
+    margin: 0px 44px;
+}
+.ourfounder>div>h1{
+    margin: 0px 44px;
+    text-align: center;
+    margin: 5px;
+}
+.ourfounder>div>h1{
+    text-align: center;
+    padding: 30px;
+}
+
+  /* <!-- img with speed indicator --> */
+
+  .speed-img-container{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.376), rgba(87, 2, 2, 0.774)),
+    url('../img/ID3-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   
+}
+.uper-speed-container{
+    display: flex;
+    justify-content:center;
+
+}
+.uper-speed-container>h1{
+    /* margin-top: %; */
+    font-size: 10em;
+    font-weight: bolder;
+    padding: 5%;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .speed-img-container h1 sup{
+      font-size: 30px;
+  }
+  .speed-img-container p{
+    color: white;
+  }
+.lower-speed-container{
+    display: flex;
+}
+.lower-speed-container>p{
+    padding: 5px;
+    margin: 40px;
+    margin-top: 20%;
+    
+}
+
+/* <!-- container for imformation of lamborghini --> */
+
+.imfo-container{
+    display: flex;
+    padding: 4%;
+}
+
+.imfo-container>div{
+    margin-right:auto;
+}
+.imfo-container>div>h1{
+   margin: 20px 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+.imfo-container>div>p{
+    margin: 40px 0px;
+    margin-right: 70px;
+}
+.info-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+}
+
+.info-btn>button{
+    color: rgb(0, 0, 0);
+    padding:10px 60px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 33px;
+    font-size: 20px;
+    margin-right: 90px;
+    margin-top:50px ;
+    margin-bottom:80px;
+}
+button:hover{
+    background-color: rgba(97, 89, 97, 0.363);
+}
+
+/* svg container */
+.global-svg{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.376), rgba(87, 2, 2, 0.774)),
+    url('../img/arun-kuchibhotla-W1XWT16Ij-Q-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw; 
+    
+}
+.svg-container{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+
+}
+.svg-container>div
+{
+    margin-top: 5%;
+    margin-bottom: 13%;
+    padding: 20px;
+}
+
+.svg-container>div>img{
+
+    margin: 30px 200px;
+    height: 200px;
+    filter: invert();
+}
+.svg-container h2{
+    margin: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+}
+.svg-para{
+    display: flex;
+}
+
+.svg-para>p{
+    margin: 0px 5%;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+/* review section of lamborghini */
+.review-container>h1{
+    text-align: center;
+    margin: 150px 0px;
+}
+.reviewer-name{
+    display: flex;
+    flex-direction:row;
+    margin: 100px 20px;
+}
+
+.inner-para-review{
+    margin: 100px 50px;
+}
+
+.reviews-btn{
+    color: rgb(0, 0, 0);
+    padding:10px 60px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 33px;
+    font-size: 20px;
+    margin-right: 90px;
+    margin-top:50px ;
+    margin-bottom:80px; 
+}
+
+/* footer of this website */
+
+.footer{
+    display: inline-block;
+    width: 100vw;
+    /* padding: 20px; */
+    background-color: red;
+}
+.footer p{
+   position: absolute;
+    left: 40%;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+}
+.footer>img{
+    margin-top: 20px;
+    margin-left: 20px;
+    /* margin-bottom: 50px; */
+}
+.footer>img{
+    float: left;
+}
+.social-logo{
+    float: right;
+}
+.social-logo>img{
+    height: 60px;
+    margin: 25px;
+    margin-right: 50px;
+}
